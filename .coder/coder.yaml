@@ -1,0 +1,20 @@
+version: 0.2
+workspace:
+  type: kubernetes
+  specs:
+    kubernetes:
+      image:
+        value: gcr.io/coder-dogfood/master/coder-dev-ubuntu
+      container-based-vm:
+        value: false
+      cpu:
+        value: 2
+      memory:
+        value: 4
+      disk:
+        value: 16
+      annotations:
+        value:
+          - key: seccomp.security.alpha.kubernetes.io/pod
+            value: runtime/default
+
