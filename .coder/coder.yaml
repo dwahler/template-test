@@ -15,6 +15,6 @@ workspace:
         value: 16
       annotations:
         value:
-          - key: seccomp.security.alpha.kubernetes.io/pod
+          - key: container.seccomp.security.alpha.kubernetes.io/workspace
             value: runtime/default
 
