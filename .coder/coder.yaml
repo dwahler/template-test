@@ -13,8 +13,6 @@ workspace:
         value: 4
       disk:
         value: 16
-      annotations:
-        value:
-          - key: container.seccomp.security.alpha.kubernetes.io/workspace
-            value: runtime/default
+      seccomp-profile-type:
+        value: Unconfined
 
