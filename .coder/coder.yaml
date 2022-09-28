@@ -14,5 +14,5 @@ workspace:
       disk:
         value: 16
       seccomp-profile-type:
-        value: Unconfined
+        value: abcde
 
