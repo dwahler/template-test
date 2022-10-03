@@ -15,4 +15,6 @@ workspace:
         value: 16
       run-as-user:
         value: 12345
+      run-as-group:
+        value: 12345
 
