@@ -13,6 +13,6 @@ workspace:
         value: 4
       disk:
         value: 16
-      seccomp-profile-type:
-        value: abcde
+      run-as-user:
+        value: 12345
 
